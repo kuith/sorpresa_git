@@ -1,0 +1,93 @@
+/*
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    height: 900px;
+    background: black;
+}
+
+#div_contenedor_pregunta {
+
+    height: 300px;
+    position: relative;
+}
+*/
+#contenedor {
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+#div_contenedor_respuetas{
+    /* background:papayawhip; */
+    height: 500px;
+    text-align:center;
+}
+#div_contenedor_reset {
+    /* background:bisque;*/
+    height: 100px;
+    position: relative;
+}
+#div_pregunta {
+    /* background: blueviolet; */
+    width: 1240px;
+    height: 150px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#pregunta {
+    margin: 0;
+    text-align: center;
+    top: 50px;
+    height: 100px;
+    font-size: 4em;
+    text-shadow: 3px 3px 3px white;
+    color:   #3399FF;
+}
+.tamanio_fondo_respuestas {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 5% 1%;
+    background-image:url("../imagenes/interrogacion.png");
+}
+#div_respuesta_1 {
+    left: 45px;
+    top: 400px;
+}
+#div_respuesta_2 {
+    left: 395px;
+    top: 400px;
+}
+#div_respuesta_3 {
+    left: 745px;
+    top: 400px;
+}
+#div_respuesta_4 {
+    left: 1095px;
+    top: 400px;
+}
+#div_reset {
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#reset {
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2em;
+    color:   #3399FF;
+}
+

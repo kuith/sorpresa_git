@@ -1,0 +1,65 @@
+{
+    "EJ": {
+        "EJERCICIO": {
+            "PREGUNTA": {
+                "texto": "Encuentra la sorpresa.",
+                "x": "100",
+                "y": "50"
+            },
+            "BOTON": [
+                {
+                    "texto": "Perdiste.",
+                    "correcto": "no",
+                    "fichero": "interrogacion.png",
+                    "x": "45",
+                    "y": "400",
+                    "ancho": "300",
+                    "alto": "300"
+                },
+                {
+                    "texto": "Perdiste.",
+                    "correcto": "no",
+                    "fichero": "interrogacion.png",
+                    "x": "395",
+                    "y": "400",
+                    "ancho": "300",
+                    "alto": "300"
+                },
+                {
+                    "texto": "Perdiste.",
+                    "correcto": "no",
+                    "fichero": "interrogacion.png",
+                    "x": "745",
+                    "y": "400",
+                    "ancho": "300",
+                    "alto": "300"
+                },
+                {
+                    "texto": "Acertaste.",
+                    "correcto": "si",
+                    "fichero": "interrogacion.png",
+                    "x": "1095",
+                    "y": "400",
+                    "ancho": "300",
+                    "alto": "300"
+                }
+            ],
+            "RESET": {
+                "texto": "Reset",
+                "x": "705",
+                "y": "750"
+            },
+            "anchoEjercicio": "1440",
+            "altoEjercicio": "900",
+            "colorfondo": "000000",
+            "unidades_graficas": "px",
+            "height_div_contenedor_pregunta": "300",
+            "height_div_contenedor_respuestas": "500",
+            "height_div_contenedor_reset": "100",
+            "width_div_pregunta": "1240",
+            "height_div_pregunta": "150",
+            "width_div_reset": "100",
+            "height_div_reset": "50"
+        }
+    }
+}
