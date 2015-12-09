@@ -1,3 +1,9 @@
+#contenedor {
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+}
+
 /*
 html {
     font-size: 16px;
@@ -13,25 +19,16 @@ body {
     height: 300px;
     position: relative;
 }
-*/
-#contenedor {
-    width: 1440px;
-    height: 900px;
-    margin: 0 auto;
-}
 
-#div_contenedor_respuetas{
-    /* background:papayawhip; */
+#div_contenedor_respuestas{
     height: 500px;
     text-align:center;
 }
 #div_contenedor_reset {
-    /* background:bisque;*/
     height: 100px;
     position: relative;
 }
 #div_pregunta {
-    /* background: blueviolet; */
     width: 1240px;
     height: 150px;
     margin: 0;
@@ -50,6 +47,8 @@ body {
     text-shadow: 3px 3px 3px white;
     color:   #3399FF;
 }
+*/
+
 .tamanio_fondo_respuestas {
     width: 300px;
     height: 300px;

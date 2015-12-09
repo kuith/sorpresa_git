@@ -9,7 +9,6 @@
 	    altoEjercicio : 900,
 	    colorfondo : "black",
 	    unidades_graficas : "px",
-	    height_div_contenedor_respuestas : 500,
 	    height_div_contenedor_reset : 100,
 	    width_div_reset : 100,
 	    height_div_reset : 50,
@@ -19,8 +18,34 @@
                 position : "relative"
             },
             
+            div_contenedor_respuestas : {
+                height : 500,
+                alin_texto : "center"
+            },
+            div_contenedor_reset : {
+                height: 100,
+                position: "relative"
+            },
+            
             div_pregunta : {
-                
+                ancho : 1240,
+                alto : 150,
+                margin: 0,
+                position : "absolute",
+                top : 50,
+                left : 50,
+                margen_derecho : -50,
+                transform : "translate(-50%, -50%)"
+            },
+            
+            pregunta : {
+                margin : 0,
+                alineacion_texto : "center",
+                top : 50,
+                alto : 50,
+                tam_fuente : 4,
+                sombra_texto : "3px 3px 3px white",
+                color : "#3399FF"
             },
 
 	    reset : {
