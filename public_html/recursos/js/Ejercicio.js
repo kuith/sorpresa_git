@@ -3,21 +3,35 @@
     'use strict';
     var 
         Ejercicio = function(p_cfg){
+            console.log("Ejercicio");
+            
             var
                 cfg = p_cfg,
                 px = cfg.unidades_graficas,
                 //esto no se deberia hacer asi...creo
                 $contenedor_pregunta = $("#contenedor"),
                 init_hojaEstilo = function(){
+//                    console.log("Ejercicio.init_hojaEstilo");
                     var
                         b_margin = cfg.body_margin,
                         b_height = cfg.body_height + px,
                         b_color = cfg.body_color,
-                        b_tam_fuente = cfg.tam_fuente,
-                        css = "<Style type = 'text/css'> html {font-size: " + b_tam_fuente + "} body {margin: " + b_margin + "; height: " + b_height + "; background: " + b_color + "} </Style>";
-                    $(css).appendTo("title");
+                        b_tam_fuente = cfg.tam_fuente + px,
+                        css;
+                
+                console.log("Ejercicio.init_hojaEstilo b_tam_fuente: " + b_tam_fuente);
+                
+                css = "<style type = 'text/css'>";
+                css += "html {font-size: " + b_tam_fuente + ";}";
+                css += "body {margin: " + b_margin + "; height: " + b_height + "; background: " + b_color + "}";
+                css += "";
+                css += "</style>";
+                
+                
+                $(css).appendTo("head");
                 },
                 render = function(p_contenedor){
+//                    console.log("Ejercicio.render");
                   var
                     $div_contenedor_pregunta  = $("<div></div>"),
                     $div_contenedor_respuestas = $("<div></div>"),
@@ -29,7 +43,8 @@
                         .attr("id", "div_contenedor_pregunta")
                         .css({
                             height: (cfg.div_contenedor_pregunta.alto + px),
-                            position: cfg.div_contenedor_pregunta.position
+                            position: cfg.div_contenedor_pregunta.position,
+                            margin: "auto"
                         })
                         .appendTo(p_contenedor);
                 
@@ -59,7 +74,8 @@
                             top : cfg.div_pregunta.top,
                             left : cfg.div_pregunta.left,
                             marginRight : cfg.div_pregunta.margen_derecho,
-                            transform : cfg.div_pregunta.transform
+                            transform : cfg.div_pregunta.transform,
+                            background : cfg.div_pregunta.color
                         }) 
                         .appendTo($div_contenedor_pregunta);
                     

@@ -35,7 +35,8 @@
                 top : 50,
                 left : 50,
                 margen_derecho : -50,
-                transform : "translate(-50%, -50%)"
+                transform : "translate(-50%, -50%)",
+                color : "blue"
             },
             
             pregunta : {
@@ -93,5 +94,5 @@
 	        }
 	    ]
 	}; 
-	    window.Config_ejercicio = Config_ejercicio;   
+    window.Config_ejercicio = Config_ejercicio;   
 }());           
